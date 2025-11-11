@@ -1,0 +1,212 @@
+[
+  {
+    "key": "alt+tab",
+    "command": "workbench.files.action.showActiveFileInExplorer",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "filesExplorerFocus || searchViewletFocus"
+  },
+  {
+    "key": "ctrl+escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "enter",
+    "command": "-renameFile"
+  },
+  {
+    "key": "f2",
+    "command": "renameFile",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "-deleteAllLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  // Git
+  {
+    "key": "alt+cmd+z",
+    "command": "git.revertSelectedRanges",
+    "when": "editorTextFocus"
+  },
+  // macOS native tabs
+  {
+    "key": "cmd+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "cmd+shift+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "cmd+t",
+    "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.newWindowTab"
+  },
+  {
+    "key": "cmd+shift+]",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+shift+]",
+    "command": "workbench.action.showNextWindowTab"
+  },
+  // {
+  //   "key": "ctrl+tab",
+  //   "command": "workbench.action.showNextWindowTab"
+  // },
+  {
+    "key": "cmd+shift+[",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "cmd+shift+[",
+    "command": "workbench.action.showPreviousWindowTab"
+  },
+  // {
+  //   "key": "ctrl+shift+tab",
+  //   "command": "workbench.action.showPreviousWindowTab"
+  // },
+  // Editor
+  {
+    "key": "cmd+w",
+    "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+shift+w",
+    "command": "workbench.action.closeAllEditors"
+  },
+  // Terminal
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+n",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus || terminalTabsFocus"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus || terminalTabsFocus"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus || terminalTabsFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+shift+w",
+    "command": "workbench.action.terminal.killAll",
+    "when": "terminalFocus || terminalTabsFocus"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.terminal.focus",
+    "when": "terminalTabsFocus"
+  },
+  // Disable splitting
+  {
+    "key": "ctrl+shift+5",
+    "command": "-workbench.action.terminal.split"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.terminal.split"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+k cmd+shift+\\",
+    "command": "-workbench.action.splitEditorInGroup"
+  },
+  {
+    "key": "cmd+k cmd+\\",
+    "command": "-workbench.action.splitEditorOrthogonal"
+  },
+  {
+    "key": "ctrl+shift+5",
+    "command": "-workbench.action.terminal.splitInstance"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.terminal.splitInstance"
+  },
+  {
+    "key": "cmd+k cmd+shift+\\",
+    "command": "-notebook.cell.split"
+  },
+  {
+    "key": "cmd+k cmd+\\",
+    "command": "-workbench.action.splitEditorUp"
+  },
+  {
+    "key": "cmd+k cmd+\\",
+    "command": "-workbench.action.splitEditorRight"
+  },
+  {
+    "key": "cmd+k cmd+\\",
+    "command": "-workbench.action.splitEditorLeft"
+  },
+  {
+    "key": "cmd+k cmd+\\",
+    "command": "-workbench.action.splitEditorDown"
+  },
+  // Fix Polish characters (ąćęłńóśźżĄĆĘŁŃÓŚŹŻ)
+  {
+    "key": "alt+c",
+    "command": "",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+z",
+    "command": "",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+a",
+    "command": "",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+x",
+    "command": "-workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  }
+]
