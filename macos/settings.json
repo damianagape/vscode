@@ -36,6 +36,7 @@
 
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
+  "files.defaultLanguage": "plaintext",
   "files.associations": {
     "Dockerfile.bash": "shellscript",
     "Kptfile": "yaml",
@@ -68,6 +69,7 @@
   "diffEditor.codeLens": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.wordWrap": "off",
+  "docker.extension.editor.dockerfileBuildStageDecorationLines": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.codeLens": false,
   "editor.colorDecorators": false,
@@ -89,6 +91,7 @@
   "explorer.confirmDragAndDrop": false,
   "scm.compactFolders": false,
   "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.tabs.showActions": "never",
   "testing.gutterEnabled": true,
   "window.customTitleBarVisibility": "never",
@@ -125,7 +128,6 @@
 
   "cSpell.language": "en,pl",
   "cSpell.userWords": [
-    //
     "alertmanager",
     "amazonwebservices",
     "atlascode",
@@ -148,6 +150,7 @@
     "gotpl",
     "gserviceaccount",
     "hashicorp",
+    "hclq",
     "hostpath",
     "inplace",
     "keypress",
@@ -181,6 +184,7 @@
     "tmpl",
     "unpackaging",
     "velero",
+    "whois",
     "workdir"
   ],
 

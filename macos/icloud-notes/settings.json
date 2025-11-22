@@ -1,0 +1,9 @@
+{
+  "files.enableTrash": true,
+  "explorer.confirmDelete": false,
+
+  "editor.renderLineHighlight": "none",
+  "editor.wordWrap": "on",
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Default Light+"
+}
